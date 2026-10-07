@@ -76,10 +76,18 @@ Fexbank http uzantısı ile localhostta ve 5000 portunda çalışmaktadır "http
 ## Varsayılan Hesaplar
 
 **Yönetici (Admin Panel):**
-- Kullanıcı adı: `admin`
-- Şifre: `.env` dosyasındaki `ADMIN_PASSWORD` değeri
+- **Kullanıcı adı:** `admin`
+- **Şifre:** Kurulum adımlarında `.env` dosyasına yazdığınız 
+  `ADMIN_PASSWORD` değeri (örnek: `GucluSifreKULLAN!`)
 
-**Müşteri:** Kayıt sayfasından oluşturulur.
+**Not:** Admin şifresini `.env` dosyasından değiştirebilirsiniz. 
+Değişiklikten sonra sunucuyu yeniden başlatın.
+
+**Müşteri:** Kayıt sayfasından oluşturulur
+1. Ana sayfada **"Müşteri Kaydı"** sekmesine tıklayın
+2. Formu doldurun (Ad Soyad, E-posta, Telefon, Kart bilgileri, Şifre)
+3. **"Kayıt Ol"** butonuna basın
+4. Ardından **"Müşteri Girişi"** sekmesinden giriş yapın
 
 ## Yol Haritası
 
